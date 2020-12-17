@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-image: url('tic-tac-toe.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.square{
+    text-align: center;
+    width: 80px;
+    display: inline-block; 
+    font-size: 60px;
+    padding: 40px;
+    cursor: pointer; 
+    color: #FFF; 
+}
+
+.player, .winner{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #D0D3D4;
+    cursor: pointer;
+}
