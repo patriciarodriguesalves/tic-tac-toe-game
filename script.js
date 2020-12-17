@@ -133,7 +133,7 @@ function restart(){
      
     document.body.style.backgroundImage = "url('tic-tac-toe.png')";
 
-    changePlayer('X');
+    changePlayer(getRandomLetters());
 
 }
 
